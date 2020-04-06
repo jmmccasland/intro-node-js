@@ -47,10 +47,11 @@ This exercise will have you convert some JavaScript written for the browser, so 
 
 You'll be creating a CLI program that saves and retrieves contacts from and address book. The program is partially there, however, you must install some remote modules, and use the fileSystem to get some things to work.
 
-- [ ] install all remote modules (hint: use npm)
-- [ ] check the README on how to run your CLI
-- [ ] Fix the CLI so that the "new" command works by saving contacts to contacts.json
-- [ ] Fix the CLI so that the "list" command works by listing all contacts and allowing you to select one, the prints out the selected contact
+- [*] install all remote modules (hint: use npm)
+- [*] check the README on how to run your CLI
+- [*] Fix the CLI so that the "new" command works by saving contacts to contacts.json
+- [*] Fix the CLI so that the "list" command works by listing all contacts and allowing you to select one, the prints out the selected contact
+
 ### API (async code)
 * location - `exercises/api`
 * commands
@@ -77,5 +78,3 @@ You have to debug and track down some issues in a small app. Use your logging an
 - [ ] write some unit test with Jest to make sure those bugs stay fixed. Refactor the code if you have to
 ### Sharing and Deploying
 Deploy one of the exercises to heroku (server) or npm (cli)
-
-
